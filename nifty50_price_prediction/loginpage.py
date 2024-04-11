@@ -28,7 +28,10 @@ def authenticate_user(username, password):
     return user
 
 def login():
-    st.title("Login Page")
+    st.title("Nifty50 Stocks Price Prediction App")
+
+    # Logo
+    st.image("https://nsearchives.nseindia.com/products/resources/images/nifty_50.jpg", width=200)
 
     # Input fields for username and password
     username = st.text_input("Username")
