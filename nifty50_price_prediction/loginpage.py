@@ -43,6 +43,7 @@ def login():
         if user is not None:
             st.success(f"Welcome, {username}!")
             # Add your app logic or redirect to another page
+            st.markdown("[Go to Main App Page](http://localhost:8502/)")
         else:
             st.error("Invalid username or password.")
 
@@ -93,4 +94,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
