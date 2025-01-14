@@ -298,7 +298,7 @@ st.sidebar.write(selling_stocks_table)
 # stock_market_emoji = "\U0001F4C8"
 # st.header(f"Nifty 50 Stocks Price Prediction App {stock_market_emoji}")
 # st.image("stock_market.png", width=700)
-
+#added all the stocks statically
 # stocks = ("^NSEI", "RELIANCE.NS", "TCS.NS", "HDFCBANK.NS", "ICICIBANK.NS", "HINDUNILVR.NS", "INFY.NS", "ITC.NS", "SBIN.NS",
 #           "BHARTIARTL.NS", "BAJFINANCE.NS", "LT.NS", "KOTAKBANK.NS", "ASIANPAINT.NS", "HCLTECH.NS", "AXISBANK.NS",
 #           "ADANIENT.NS", "MARUTI.NS", "SUNPHARMA.NS", "TITAN.NS", "BAJAJFINSV.NS", "ULTRACEMCO.NS", "ONGC.NS",
