@@ -6,7 +6,7 @@ from prophet.plot import plot_plotly
 from plotly import graph_objs as go
 import pandas as pd
 
-# Define the HTML/CSS code for the full-screen timed image display
+# Define the HTML/CSS code for the full-screen timed image display.
 image_html = """
 <style>
     body {
@@ -167,7 +167,7 @@ lower_range = round(forecast["yhat_lower"].iloc[-1])
 target = round(forecast['yhat'].iloc[-1])
 
 st.write(f"The {company_name} Looks {trend} according to our prediction model for {n_months} {month}. The range of "
-         f"this stock for {n_months} {month} will be {upper_range} to {lower_range}. The predicted target of the selected stock will be {target}.")
+         f"this stock for {n_months} {month} will be {upper_range} to {lower_range}. The  target that is predicted of the selected stock will be {target}.")
 
 st.subheader("Forecast data")
 fig1 = plot_plotly(m, forecast)
