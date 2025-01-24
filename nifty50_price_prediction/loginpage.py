@@ -12,8 +12,8 @@ app = Flask(__name__)
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'snehaljagdale186@gmail.com'  # Your email address
-app.config['MAIL_PASSWORD'] = 'outk xzjs rrra dddd'          # App-specific password
+app.config['MAIL_USERNAME'] = 'enter your mail id'  # Your email address
+app.config['MAIL_PASSWORD'] = 'enter you pass key'          # App-specific password
 app.config['MAIL_DEBUG'] = True  # Enable debugging for email
 app.config['MAIL_DEFAULT_SENDER'] = 'snehaljagdale186@gmail.com'  # Default sender email
 
